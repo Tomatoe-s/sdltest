@@ -1,0 +1,41 @@
+# --- Build folders ---
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+
+# --- CMake cache ---
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# --- SDL3 FetchContent ---
+_deps/
+
+# --- Visual Studio ---
+*.sln
+*.vcxproj*
+*.user
+*.opensdf
+*.sdf
+*.suo
+
+# --- VSCode ---
+.vscode/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Executables ---
+*.exe
+*.out
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+
+# --- Backup / temp ---
+*.log
+*.tmp
