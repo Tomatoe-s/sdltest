@@ -21,7 +21,11 @@ FetchContent_MakeAvailable(SDL3)
 # --------------------------------
 # Your source files
 # --------------------------------
-file(GLOB_RECURSE SRC src/*.cpp)
+file(GLOB_RECURSE SRC
+    src/*.cpp
+    src/**/*.cpp
+)
+
 
 add_executable(${PROJECT_NAME} ${SRC})
 
